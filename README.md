@@ -314,7 +314,7 @@ Start your flask app with `python3 app.py`.
 
 ## You Do
 
-Utilizing the [Flask SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/queries/) docs, build the functionality for the `SingleUser` resource.
+Utilizing the [Flask SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/queries/) docs, build the `READ`, `UPDATE`, and `DELETE` functionality for the `SingleUser` resource.
 
 Test your endpoints using insomnia each step of the way.
 
