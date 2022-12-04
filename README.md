@@ -243,7 +243,7 @@ def find_all(cls):
 
 Notice a few things here:
 
-- The `@classmethod` decorator binds a function to the class rather than an instance itself. This allows us to use it without have to create a new instance of the `User`.
+- The `@classmethod` decorator binds a function to the class rather than an instance itself. This allows us to use it without having to create a new instance of the `User`.
 - The `cls` argument is short for `class`. It provides us with information if required about our `class`. It is also a required argument when declaring a `classmethod`.
 - The `query` object is built into `User` because we are inheriting from `db.Model`.
 
@@ -265,7 +265,7 @@ Now that we've set up our model, we're ready to integrate it into our Api.
 
 Let's start by finding `resources/user.py`
 
-You'll notice there are two resources, a `Users` resource and `SingleUser`. The `Users` resource will handle requests for `/users` and `SingleUser` will handle the requests for `/users/<int:id>`.
+In the `resources` directory, open `user.py`. You'll notice there are two resources, a `Users` resource and `SingleUser`. The `Users` resource will handle requests for `/users` and `SingleUser` will handle the requests for `/users/<int:id>`.
 
 Let's first import our `User` model and our `db` instance:
 
