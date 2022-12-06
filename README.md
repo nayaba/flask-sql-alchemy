@@ -314,7 +314,7 @@ Start your flask app with `python3 app.py`.
 
 ## You Do
 
-Utilizing the [Flask SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/queries/) docs, build the `READ`, `UPDATE`, and `DELETE` functionality for the `SingleUser` resource.
+Utilizing the [Flask SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/queries/) docs, build the `READ`, `UPDATE`, and `DELETE` functionality for the `SingleUser` resource.
 
 Test your endpoints using insomnia each step of the way.
 
@@ -325,4 +325,4 @@ In this lesson, we learned how to define models using `Flask SQLAlchemy` and how
 ## Resources
 
 - [Python Class Methods](https://www.programiz.com/python-programming/methods/built-in/classmethod)
-- [Flask SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
+- [Flask SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/)
